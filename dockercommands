@@ -45,16 +45,18 @@ vi index.html
   </head>
   <body>
     <div class="container">
-      <h1>Hello Learning team batch26 runninh html code</h1>
-      <p>This nginx page is brought to you by Docker in front of shilpi abhishek n gayatri </p>
+      <h1>Hello AWS+DevOps Learning Team, run the html code</h1>
+      <p>This nginx page is brought to you by Docker in front of Rashmi Sachin & Yallappa  </p>
     </div>
   </body>
 </html>
 
 
 
+without detached mode
 docker run --name docker-nginx -p 80:80 nginx
 
+with detached mode
 docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
 
 
